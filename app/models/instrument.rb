@@ -7,7 +7,7 @@ class Instrument < ApplicationRecord
   validates :description, length: { maximum: 1000, too_long: '%<count>s characters is the maximum allowed.' }
 
   validates :title, length: { maximum: 140, too_long: '%<count>s characters is the maximum allowed' }
-  validates :price, numericality: { only_integer: true }, length: { maximum: 7 }
+  validates :price, format: { with: /\A\d+(\.\d+)?\z/ }, length: { maximum: 7 }
 
   BRAND = %w[Fender Gibson Epiphone ESP Martin Dean Taylor Jackson PRS Ibanez Charvel Washburn]
   FINISH = %w[Black White Navy Blue Red Clear Satin Yellow Seafoam]
