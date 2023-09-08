@@ -268,7 +268,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   carrierwave
   coffee-rails (~> 4.2)
-  devise
+  devise (~> 4.7)
   gravatar_image_tag (~> 1.2)
   guard (~> 2.14, >= 2.14.1)
   guard-livereload (~> 2.5, >= 2.5.2)

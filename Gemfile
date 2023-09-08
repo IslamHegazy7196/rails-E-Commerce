@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'bulma-rails', '~> 0.6.1' # css framework
 gem 'simple_form', '~> 3.5' # generates simple form outside of typical rails form
-gem 'devise'
+gem 'devise', '~> 4.7'
 gem 'gravatar_image_tag', '~> 1.2' # 
 gem 'carrierwave' # image upload service
 gem 'mini_magick' # needed for carrierwave
